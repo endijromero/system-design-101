@@ -1,0 +1,236 @@
+========================================
+========================================
+Archivo: STEPHANIA MURILLO URREGO.pdf
+========================================
+
+Claro, aquí está la verificación del documento del estudiante contra la rúbrica de evaluación, siguiendo el formato solicitado.
+
+---
+**Análisis de Criterios:**
+
+Para el cálculo de la puntuación, se distribuyen los 50 puntos totales de manera equitativa entre los 6 criterios solicitados, asignando 8.33 puntos a cada uno.
+
+- **Criterio 1 [Índice]:** Cumplimiento: 100%. Puntos: 8.33 / 8.33. Justificación: El documento incluye una "Tabla de Contenido" que cumple la función del índice, listando correctamente todas las secciones requeridas en el informe.
+
+- **Criterio 2 [Introducción]:** Cumplimiento: 100%. Puntos: 8.33 / 8.33. Justificación: Se presenta una introducción clara y coherente que contextualiza el propósito del informe, enfocado en un plan de auditoría para el sector salud y la identificación de riesgos.
+
+- **Criterio 3 [Alcance]:** Cumplimiento: 100%. Puntos: 8.33 / 8.33. Justificación: La sección de alcance está presente y define de manera adecuada los límites del trabajo, especificando los sistemas y datos que serán objeto del análisis.
+
+- **Criterio 4 [Objetivos]:** Cumplimiento: 100%. Puntos: 8.33 / 8.33. Justificación: El documento presenta un objetivo general y tres objetivos específicos bien definidos, alineados con los requisitos de la actividad de auditoría y análisis de riesgos.
+
+- **Criterio 5 [Planeación]:** Cumplimiento: 100%. Puntos: 8.33 / 8.33. Justificación: Esta sección está desarrollada de forma exhaustiva. Incluye las etapas de la auditoría y una matriz detallada que describe los activos, vulnerabilidades, amenazas y riesgos, cumpliendo con el núcleo central de la actividad.
+
+- **Criterio 6 [Cronograma]:** Cumplimiento: 0%. Puntos: 0 / 8.33. Justificación: Aunque se incluye el título de la sección "Cronograma" al final del documento, esta se encuentra completamente vacía, sin ningún tipo de contenido, tabla o desarrollo. El criterio no se cumple.
+
+**Puntaje Final:** 41.65 / 50
+
+
+========================================
+========================================
+========================================
+========================================
+Archivo: JUAN SEBASTIAN GARCIA RODRIGUEZ.pdf
+========================================
+
+Claro, aquí está la evaluación del documento entregado por el estudiante, verificando cada uno de los criterios solicitados en la rúbrica y siguiendo el formato exacto requerido.
+
+---
+**Análisis de Criterios:**
+- **Criterio 1 [Índice]:** Cumplimiento: 100%. Puntos: 8.33 / 8.33. Justificación: El documento incluye un índice claro y bien estructurado en la página 'i', que enumera todas las secciones del informe, cumpliendo completamente con el requisito.
+- **Criterio 2 [Introducción]:** Cumplimiento: 100%. Puntos: 8.33 / 8.33. Justificación: Se presenta una sección de 'Introducción' que contextualiza adecuadamente el problema de la ciberseguridad en el sector financiero y establece el propósito del informe.
+- **Criterio 3 [Alcance]:** Cumplimiento: 100%. Puntos: 8.33 / 8.33. Justificación: La sección 'Alcance' define de manera precisa los límites del análisis, especificando los sistemas y procesos que serán considerados y los que serán excluidos.
+- **Criterio 4 [Objetivos]:** Cumplimiento: 100%. Puntos: 8.33 / 8.33. Justificación: El informe presenta un 'Objetivo General' claro y cinco 'Objetivos Específicos' que desglosan las metas del trabajo, demostrando una planificación detallada.
+- **Criterio 5 [Planeación]:** Cumplimiento: 100%. Puntos: 8.33 / 8.33. Justificación: Se incluye una sección de 'Planeación' que describe las fases del proyecto y las metodologías de referencia (ISO/IEC 27005 y NIST SP 800-30), lo cual demuestra rigor técnico y académico.
+- **Criterio 6 [Cronograma]:** Cumplimiento: 100%. Puntos: 8.35 / 8.35. Justificación: El documento contiene un 'Cronograma' en formato de tabla que detalla las actividades, responsables, duración y fechas estimadas, cumpliendo totalmente con la solicitud.
+
+**Puntaje Final:** 50 / 50
+
+
+========================================
+========================================
+========================================
+========================================
+Archivo: BRAYAN DARIO MADERA MARTINEZ.pdf
+========================================
+
+Error al generar la evaluación: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 2
+Please retry in 7.511380581s. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-pro"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 2
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 7
+}
+]
+
+
+========================================
+========================================
+========================================
+========================================
+Archivo: NICOL FERNANDA CONTRERAS QUINTERO.pdf
+========================================
+
+Error al generar la evaluación: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 2
+Please retry in 25.532394859s. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-pro"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 2
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 25
+}
+]
+
+
+========================================
+========================================
+========================================
+========================================
+Archivo: FERNANDO ANTONIO PEREZ FOMEQUE.pdf
+========================================
+
+Error al generar la evaluación: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 2
+Please retry in 54.220588296s. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-pro"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 2
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 54
+}
+]
+
+
+========================================
+========================================
+========================================
+========================================
+Archivo: JONATHAN ALFONSO MARTELO CASTRO.pdf
+========================================
+
+Error al generar la evaluación: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 2
+Please retry in 42.783703853s. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-pro"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 2
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 42
+}
+]
+
+
+========================================
+========================================
+========================================
+========================================
+Archivo: JHON BEIKER SAIZ MELO.pdf
+========================================
+
+Error al generar la evaluación: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 2
+Please retry in 52.268860772s. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-pro"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 2
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 52
+}
+]
+
+
+========================================
+========================================
+========================================
+========================================
+Archivo: OSCAR EDUARDO PEREZ VALENZUELA.pdf
+========================================
+
+Claro, aquí está la verificación del documento del estudiante contra la rúbrica de evaluación, siguiendo el formato exacto solicitado.
+
+---
+**Análisis de Criterios:**
+- **Criterio 1 [Índice]:** Cumplimiento: 100%. Puntos: 8/8. Justificación: El documento incluye un índice claro y bien estructurado bajo el título "Contenido" en la página 2, que lista todas las secciones requeridas y adicionales con sus respectivas numeraciones de página, cumpliendo totalmente con el criterio.
+
+- **Criterio 2 [Introducción]:** Cumplimiento: 100%. Puntos: 8/8. Justificación: Se presenta una introducción completa en la página 3 que contextualiza adecuadamente el caso de estudio (auditoría a la DIAN), destaca su importancia y resume la estructura y el propósito del informe.
+
+- **Criterio 3 [Alcance]:** Cumplimiento: 100%. Puntos: 8/8. Justificación: El alcance de la auditoría está claramente definido en la página 4. Se especifican los sistemas (MUISCA, Facturación Electrónica, RUT, etc.) y los tipos de controles a evaluar, delimitando de manera precisa el trabajo a realizar.
+
+- **Criterio 4 [Objetivos]:** Cumplimiento: 100%. Puntos: 8/8. Justificación: El documento presenta un objetivo general y seis objetivos específicos en la página 5. Estos son claros, medibles y están perfectamente alineados con la finalidad de una auditoría de seguridad y gestión de riesgos.
+
+- **Criterio 5 [Planeación]:** Cumplimiento: 100%. Puntos: 9/9. Justificación: La sección de planeación (página 6 y siguientes) es exhaustiva. No solo describe la metodología y las fases del proyecto, sino que también desarrolla el análisis de activos, amenazas y riesgos, demostrando un trabajo profundo que supera la expectativa del criterio.
+
+- **Criterio 6 [Cronograma]:** Cumplimiento: 100%. Puntos: 9/9. Justificación: Se incluye un cronograma detallado y profesional a partir de la página 10, que presenta las actividades en formato de tabla y un diagrama de Gantt visual. Esto evidencia una planificación rigurosa y completa del proyecto.
+
+**Puntaje Final:** 50 / 50
+
+
+========================================
+========================================

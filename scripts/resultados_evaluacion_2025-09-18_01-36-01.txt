@@ -1,0 +1,57 @@
+========================================
+========================================
+Archivo: BRAYAN DARIO MADERA MARTINEZ.pdf
+========================================
+
+Claro, he analizado el documento "Taller_1-IS0278 - AUDITORIA Y LEGISLACIÓN INFORMÁTICA.pdf" para extraer los criterios de evaluación.
+
+Para poder verificar si el documento de un alumno cumple con estos criterios, **es indispensable que me proporciones el documento entregado por el alumno**.
+
+Sin embargo, puedo proporcionarte una plantilla de evaluación estructurada basada en los criterios del taller. Esta plantilla te permitirá calificar el trabajo del estudiante de manera objetiva y sistemática, asegurando que se cumplan los requisitos definidos.
+
+### **Análisis de los Criterios de Evaluación del Taller**
+
+Primero, he extraído y organizado los criterios de evaluación definidos en el documento. La suma total es de 50 puntos, como se requiere.
+
+| Criterio de Evaluación | Puntos Máximos | Ponderación sobre 50 pts |
+| :--- | :--- | :--- |
+| 1. Estructura del documento | 5 | 10% |
+| 2. Ortografía y redacción | 5 | 10% |
+| 3. Análisis crítico | 15 | 30% |
+| 4. Cumplimiento de los requisitos del taller | 20 | 40% |
+| 5. Referencias y citación | 5 | 10% |
+| **TOTAL** | **50** | **100%** |
+
+---
+
+### **Plantilla y Guía para la Evaluación del Documento del Alumno**
+
+A continuación, te presento una guía detallada para que puedas evaluar el trabajo entregado. Para cada criterio, se describe qué se debe verificar y cómo se puede asignar el puntaje.
+
+Una vez que me entregues el documento del alumno, podré completar la columna **"Puntaje Obtenido"** y calcular el **"% de Cumplimiento"** para cada criterio.
+
+---
+
+#### **Evaluación del Documento Entregado**
+
+| Criterio de Evaluación | Puntos Máximos | Guía de Verificación | Puntaje Obtenido (a completar) | % de Cumplimiento (a completar) |
+| :--- | :--- | :--- | :--- | :--- |
+| **1. Estructura del documento** | **5** | **Verificar si el documento incluye:**<br>• **Portada:** Con los datos solicitados (nombre, código, asignatura, etc.).<br>• **Introducción:** Presenta el tema y los objetivos del trabajo.<br>• **Desarrollo:** Contenido organizado y coherente con los puntos del taller.<br>• **Conclusiones:** Resume los hallazgos y reflexiones finales.<br>• **Bibliografía/Referencias:** Lista de fuentes consultadas. | | |
+| **2. Ortografía y redacción** | **5** | **Evaluar la calidad de la escritura:**<br>• **Sin errores ortográficos:** El texto está libre de faltas de ortografía.<br>• **Buena gramática y sintaxis:** Las oraciones están bien construidas y son fáciles de entender.<br>• **Claridad y coherencia:** Las ideas se presentan de forma lógica y fluida. | | |
+| **3. Análisis crítico** | **15** | **Evaluar la profundidad del análisis del estudiante:**<br>• **Reflexión propia:** ¿El estudiante va más allá de solo describir? ¿Aporta su propia perspectiva, compara conceptos o emite juicios fundamentados?<br>• **Conexión de ideas:** ¿Relaciona los conceptos de auditoría, las normas ISO y los casos prácticos (como el del video)?<br>• **Fundamentación:** ¿Sus opiniones y análisis están respaldados por la teoría o las fuentes consultadas? | | |
+| **4. Cumplimiento de los requisitos del taller** | **20** | **Verificar que se hayan completado todas las actividades solicitadas:**<br>• **(Punto 1):** ¿Realizó el mapa conceptual sobre los conceptos básicos de auditoría informática? ¿Es claro y completo?<br>• **(Punto 2):** ¿Consultó y describió los aspectos clave de las Normas ISO 27001, 27002 y 27005?<br>• **(Punto 3):** ¿Analizó el video "Auditores internos y externos"? ¿Respondió a las preguntas planteadas sobre roles, diferencias y similitudes?<br>• **(Punto 4):** ¿Desarrolló el caso práctico de la empresa "TecnoSoluciones" aplicando los conceptos de los puntos anteriores? | | |
+| **5. Referencias y citación** | **5** | **Revisar el uso de fuentes:**<br>• **Uso de Normas APA:** ¿Las citas en el texto y la lista de referencias siguen el formato APA (u otro estándar consistente)?<br>• **Fuentes académicas:** ¿Utilizó fuentes confiables y relevantes (libros, artículos, normas)?<br>• **Correspondencia:** ¿Todas las fuentes citadas en el texto aparecen en la bibliografía y viceversa? | | |
+| **TOTAL** | **50** | | **(Suma Total)** | **(Promedio Ponderado)** |
+
+### **Cómo Proceder**
+
+1.  **Envíame el documento** que fue entregado por los alumnos.
+2.  Con el documento en mano, realizaré el análisis siguiendo la guía anterior, criterio por criterio.
+3.  Completaré la tabla con el **"Puntaje Obtenido"** para cada ítem y calcularé el **"% de Cumplimiento"** correspondiente. Por ejemplo, si en "Análisis crítico" (15 puntos) el alumno obtiene 12 puntos, el cumplimiento para ese criterio será del 80% (12/15).
+4.  Finalmente, te entregaré un informe detallado con la calificación final y una justificación para cada puntaje asignado.
+
+Quedo a la espera del documento para completar la evaluación.
+
+
+========================================
+========================================

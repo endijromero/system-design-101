@@ -1,0 +1,261 @@
+========================================
+========================================
+Archivo: STEPHANIA MURILLO URREGO.pdf
+========================================
+
+Claro, aquí está el análisis del documento del estudiante basado en la rúbrica de evaluación proporcionada, siguiendo el formato exacto solicitado.
+
+Para la asignación de puntos, se ha distribuido el total de 50 puntos entre los 6 criterios, otorgando mayor peso a la sección de "Planeación" por ser el núcleo del análisis solicitado en la actividad.
+
+*   **Ponderación:**
+    *   Índice: 5 puntos
+    *   Introducción: 8 puntos
+    *   Alcance: 8 puntos
+    *   Objetivos: 8 puntos
+    *   Planeación: 13 puntos
+    *   Cronograma: 8 puntos
+    *   **Total: 50 puntos**
+
+---
+**Análisis de Criterios:**
+- **Criterio 1 [Índice]:** Cumplimiento: 100%. Puntos: 5/5. Justificación: El documento incluye una "Tabla de Contenido" que cumple perfectamente la función de índice, listando todas las secciones requeridas con su número de página correspondiente.
+
+- **Criterio 2 [Introducción]:** Cumplimiento: 100%. Puntos: 8/8. Justificación: Se presenta una introducción clara y concisa que contextualiza adecuadamente el trabajo, mencionando el sector (salud), los activos a analizar y el objetivo general de la auditoría.
+
+- **Criterio 3 [Alcance]:** Cumplimiento: 100%. Puntos: 8/8. Justificación: La sección de alcance delimita correctamente el enfoque del trabajo, especificando los sistemas (EHR, facturación, portales, etc.) y los tipos de datos que serán objeto del análisis.
+
+- **Criterio 4 [Objetivos]:** Cumplimiento: 100%. Puntos: 8/8. Justificación: Se definen claramente un objetivo general y tres objetivos específicos que son medibles, relevantes y coherentes con la introducción y el alcance del proyecto.
+
+- **Criterio 5 [Planeación]:** Cumplimiento: 100%. Puntos: 13/13. Justificación: Esta sección es la más detallada y cumple sobradamente con el requisito de una "planificación rigurosa". Incluye fases de la auditoría, actividades, responsables y una matriz exhaustiva que identifica 20 activos con sus respectivas amenazas, vulnerabilidades y riesgos.
+
+- **Criterio 6 [Cronograma]:** Cumplimiento: 0%. Puntos: 0/8. Justificación: Aunque se incluye el título de la sección "Cronograma", esta se encuentra completamente vacía. No se presenta ningún tipo de planificación temporal, diagrama de Gantt o tabla de actividades, por lo que el criterio no se cumple.
+
+**Puntaje Final:** 42 / 50
+
+
+========================================
+========================================
+========================================
+========================================
+Archivo: JUAN SEBASTIAN GARCIA RODRIGUEZ.pdf
+========================================
+
+Error al generar la evaluación: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 2
+Please retry in 51.743275494s. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-pro"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 2
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 51
+}
+]
+
+
+========================================
+========================================
+========================================
+========================================
+Archivo: BRAYAN DARIO MADERA MARTINEZ.pdf
+========================================
+
+Error al generar la evaluación: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 2
+Please retry in 33.111448989s. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-pro"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 2
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 33
+}
+]
+
+
+========================================
+========================================
+========================================
+========================================
+Archivo: NICOL FERNANDA CONTRERAS QUINTERO.pdf
+========================================
+
+Error al generar la evaluación: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 2
+Please retry in 48.611656149s. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-pro"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 2
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 48
+}
+]
+
+
+========================================
+========================================
+========================================
+========================================
+Archivo: FERNANDO ANTONIO PEREZ FOMEQUE.pdf
+========================================
+
+Error al generar la evaluación: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 2
+Please retry in 57.917316538s. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-pro"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 2
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 57
+}
+]
+
+
+========================================
+========================================
+========================================
+========================================
+Archivo: JONATHAN ALFONSO MARTELO CASTRO.pdf
+========================================
+
+Error al generar la evaluación: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 2
+Please retry in 24.157083482s. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-pro"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 2
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 24
+}
+]
+
+
+========================================
+========================================
+========================================
+========================================
+Archivo: JHON BEIKER SAIZ MELO.pdf
+========================================
+
+Error al generar la evaluación: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 50
+Please retry in 29.200085854s. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-pro"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 29
+}
+]
+
+
+========================================
+========================================
+========================================
+========================================
+Archivo: OSCAR EDUARDO PEREZ VALENZUELA.pdf
+========================================
+
+Error al generar la evaluación: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 50
+Please retry in 5.330573332s. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-pro"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 5
+}
+]
+
+
+========================================
+========================================

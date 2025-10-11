@@ -1,0 +1,108 @@
+========================================
+========================================
+Archivo: BRAYAN DARIO MADERA MARTINEZ.pdf
+========================================
+
+Claro, he analizado el documento "Taller_1-IS0278 - AUDITORIA Y LEGISLACIÓN INFORMÁTICA.pdf" para extraer los criterios de evaluación. A continuación, presento un marco detallado para verificar si la entrega de los alumnos cumple con dichos criterios.
+
+Como no tengo acceso al documento entregado por los alumnos, te proporcionaré la estructura y el método para que puedas realizar la evaluación de manera objetiva, asignando los puntos y calculando el porcentaje de cumplimiento para cada criterio.
+
+---
+
+### **Análisis de los Criterios de Evaluación del Taller**
+
+El documento del taller define 5 criterios de evaluación que suman un total de **50 puntos**. A continuación se detalla cada criterio y cómo verificar su cumplimiento en el trabajo de los estudiantes.
+
+#### **1. Claridad y Coherencia (10 puntos)**
+Este criterio evalúa la estructura y la redacción del documento (la presentación de diapositivas).
+
+*   **¿Qué verificar?**
+    *   **Estructura lógica:** ¿La presentación sigue el orden solicitado (Introducción, Descripción del Delito, Marco Legal, Análisis, Conclusiones, Referencias)?
+    *   **Coherencia:** ¿Las ideas fluyen de una sección a otra de manera natural? ¿El análisis y las conclusiones se derivan lógicamente de los hechos presentados?
+    *   **Claridad:** ¿El lenguaje es claro, preciso y fácil de entender? ¿Se evitan ambigüedades y errores gramaticales o de ortografía?
+*   **Para asignar puntaje:**
+    *   **10 puntos:** Excelente estructura, redacción impecable y total coherencia.
+    *   **6-9 puntos:** Estructura adecuada, pero con algunas ideas confusas o transiciones débiles.
+    *   **1-5 puntos:** Estructura desordenada, difícil de seguir, con múltiples errores de redacción.
+
+#### **2. Profundidad del Análisis (15 puntos)**
+Este es el criterio con mayor peso. Evalúa la capacidad del estudiante para ir más allá de la simple descripción de los hechos.
+
+*   **¿Qué verificar?**
+    *   **Análisis crítico:** ¿El grupo simplemente resume el caso o analiza las implicaciones, las causas y las consecuencias del delito informático?
+    *   **Conexión Hechos-Ley:** ¿Se explica detalladamente *cómo* las acciones delictivas se ajustan a los tipos penales descritos en la ley?
+    *   **Argumentación:** ¿Los argumentos presentados en la sección "Análisis del Caso" son sólidos, bien fundamentados y demuestran una comprensión profunda del tema?
+*   **Para asignar puntaje:**
+    *   **13-15 puntos:** Análisis exhaustivo, crítico y bien argumentado que conecta perfectamente los hechos con el marco legal.
+    *   **8-12 puntos:** Análisis correcto pero superficial. Describe la relación entre el caso y la ley sin profundizar en las implicaciones.
+    *   **1-7 puntos:** Análisis muy pobre o inexistente. Se limita a describir el caso sin analizarlo.
+
+#### **3. Aplicación del Marco Legal (10 puntos)**
+Este criterio se enfoca en el uso correcto de la legislación informática colombiana.
+
+*   **¿Qué verificar?**
+    *   **Identificación de Normativa:** ¿Se identifica correctamente la Ley 1273 de 2009 como marco principal? ¿Mencionan otras leyes o decretos relevantes si aplica?
+    *   **Artículos Pertinentes:** ¿Citan y explican los artículos específicos de la ley que se aplican al caso de estudio? (Ej: Acceso abusivo a un sistema informático - Art. 269A).
+    *   **Correcta Interpretación:** ¿La interpretación y aplicación de los artículos legales al caso son correctas?
+*   **Para asignar puntaje:**
+    *   **10 puntos:** Identifica y aplica de forma precisa y correcta toda la normativa relevante.
+    *   **6-9 puntos:** Identifica la ley principal (1273) pero la aplicación de los artículos es genérica o parcialmente incorrecta.
+    *   **1-5 puntos:** No identifica la normativa correcta o la aplica de manera errónea.
+
+#### **4. Calidad de la Presentación (10 puntos)**
+Evalúa los aspectos formales y visuales de las diapositivas entregadas.
+
+*   **¿Qué verificar?**
+    *   **Diseño:** ¿La presentación es visualmente atractiva, profesional y ordenada?
+    *   **Legibilidad:** ¿El tamaño de la fuente, los colores y el contraste permiten una lectura fácil?
+    *   **Uso de Recursos:** ¿Se utilizan gráficos, imágenes o esquemas que ayuden a comprender la información y no solo para decorar?
+    *   **Extensión:** ¿La cantidad de texto por diapositiva es adecuada (evita la sobrecarga)?
+*   **Para asignar puntaje:**
+    *   **10 puntos:** Diseño profesional, limpio, legible y con uso efectivo de recursos visuales.
+    *   **6-9 puntos:** Diseño funcional pero poco atractivo o con algunos problemas de legibilidad (mucho texto, colores inadecuados).
+    *   **1-5 puntos:** Diseño descuidado, desordenado y difícil de leer.
+
+#### **5. Referencias y Citación (5 puntos)**
+Evalúa el rigor académico en el uso de fuentes de información.
+
+*   **¿Qué verificar?**
+    *   **Existencia de Referencias:** ¿Se incluye una sección de referencias bibliográficas?
+    *   **Calidad de las Fuentes:** ¿Las fuentes son confiables y pertinentes (noticias, documentos judiciales, artículos académicos)?
+    *   **Formato de Citación:** ¿Se utiliza un estándar de citación consistente (APA, IEEE, etc.) tanto en el texto (si aplica) como en la lista de referencias final?
+*   **Para asignar puntaje:**
+    *   **5 puntos:** Incluye múltiples fuentes de calidad, correctamente formateadas según un estándar reconocido.
+    *   **3-4 puntos:** Incluye referencias, pero con errores de formato o fuentes de baja calidad.
+    *   **1-2 puntos:** Lista de referencias incompleta, mal formateada o ausente.
+
+---
+
+### **Plantilla de Evaluación para el Entregable del Alumno**
+
+Puedes usar la siguiente tabla para calificar el trabajo. Simplemente asigna los puntos obtenidos en cada criterio y la tabla calculará automáticamente el porcentaje de cumplimiento y la nota final.
+
+| Criterio de Evaluación | Puntos Máximos | Puntos Obtenidos (a completar por el evaluador) | Ponderación Porcentual Cumplida (%) | Observaciones del Evaluador |
+| :--- | :---: | :---: | :---: | :--- |
+| **1. Claridad y Coherencia** | 10 | `[Asignar puntaje]` | `(Puntos Obtenidos / 10) * 100` | `[Escribir aquí comentarios específicos...]` |
+| **2. Profundidad del Análisis** | 15 | `[Asignar puntaje]` | `(Puntos Obtenidos / 15) * 100` | `[Escribir aquí comentarios específicos...]` |
+| **3. Aplicación del Marco Legal** | 10 | `[Asignar puntaje]` | `(Puntos Obtenidos / 10) * 100` | `[Escribir aquí comentarios específicos...]` |
+| **4. Calidad de la Presentación** | 10 | `[Asignar puntaje]` | `(Puntos Obtenidos / 10) * 100` | `[Escribir aquí comentarios específicos...]` |
+| **5. Referencias y Citación** | 5 | `[Asignar puntaje]` | `(Puntos Obtenidos / 5) * 100` | `[Escribir aquí comentarios específicos...]` |
+| **TOTAL** | **50** | **`[Suma de puntos]`** | - | **Calificación Final:** (`[Suma de puntos]` / 50) * 5.0 = **`[Nota final sobre 5.0]`** |
+
+#### **Ejemplo de Uso:**
+
+Supongamos que un grupo obtiene los siguientes puntajes:
+*   Claridad y Coherencia: **8/10** (80% cumplido)
+*   Profundidad del Análisis: **11/15** (73.3% cumplido)
+*   Aplicación del Marco Legal: **9/10** (90% cumplido)
+*   Calidad de la Presentación: **7/10** (70% cumplido)
+*   Referencias y Citación: **5/5** (100% cumplido)
+
+El **puntaje total** sería: 8 + 11 + 9 + 7 + 5 = **40 puntos**.
+La **calificación final** (en una escala de 0.0 a 5.0) sería: (40 / 50) * 5.0 = **4.0**.
+
+Este esquema te permitirá realizar una calificación sistemática, justa y alineada con los objetivos definidos en el documento del taller. Si me proporcionas el documento entregado por los alumnos, con gusto puedo realizar la evaluación completa siguiendo esta misma estructura.
+
+
+========================================
+========================================

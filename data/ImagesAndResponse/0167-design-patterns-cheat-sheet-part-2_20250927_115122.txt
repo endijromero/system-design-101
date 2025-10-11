@@ -1,0 +1,318 @@
+Análisis de la imagen: 0167-design-patterns-cheat-sheet-part-2.png
+Fecha de procesamiento: 2025/09/27 11:51:22
+================================================================================
+
+¡Excelente! A continuación, se presenta un análisis e investigación exhaustivos sobre la imagen "Design Patterns Cheat Sheet", actuando como un experto investigador y tutor.
+
+*
+
+### Análisis e Investigación de Patrones de Diseño de Software
+
+La imagen proporcionada es una "hoja de referencia" (Cheat Sheet) que resume nueve de los patrones de diseño de software más influyentes. Estos patrones son soluciones probadas y documentadas a problemas comunes que surgen durante el desarrollo de software. Fueron popularizados por el libro "Design Patterns: Elements of Reusable Object-Oriented Software", escrito por Erich Gamma, Richard Helm, Ralph Johnson y John Vlissides, conocidos como la "Banda de los Cuatro" (Gang of Four o GoF).
+
+El análisis se estructura en torno a los patrones presentados, clasificándolos primero por su categoría (Comportamiento, Estructural) y luego detallando cada uno según los criterios solicitados.
+
+Clasificación de los Patrones Presentados:
+
+Patrones de Comportamiento (Behavioral Patterns): Se centran en la comunicación y la asignación de responsabilidades entre objetos.
+    *   Observer
+    *   State
+    *   Strategy
+Patrones Estructurales (Structural Patterns): Se ocupan de la composición de clases y objetos para formar estructuras más grandes y flexibles.
+    *   Adapter
+    *   Bridge
+    *   Composite
+    *   Facade
+    *   Flyweight
+    *   Proxy
+
+A continuación, se procede al análisis detallado de cada patrón.
+
+---
+
+### 1. Patrón Observer (Observador)
+
+Categoría: Comportamiento
+
+#### 1.1. Descripción Detallada
+El diagrama UML para el patrón Observer ilustra una relación de dependencia de uno a muchos.
+`Subject` (Sujeto): Es una interfaz que define los métodos para gestionar suscriptores: `addObserver`, `removeObserver` y `notifyObservers`. Es el objeto que será observado.
+`Observer` (Observador): Es una interfaz que define un método `update`, que será invocado por el `Subject` cuando su estado cambie.
+`ConcreteSubject` (Sujeto Concreto): Implementa la interfaz `Subject`. Mantiene una lista de `Observers` y el estado que interesa a estos. Cuando su estado cambia, invoca a `notifyObservers` para informar a todos los `Observers` suscritos.
+`ConcreteObserver` (Observador Concreto): Implementa la interfaz `Observer`. Al recibir la notificación a través de su método `update`, reacciona al cambio de estado del `Subject`.
+`ObserverClient`: Es el código cliente que crea y vincula los objetos `ConcreteSubject` y `ConcreteObserver`.
+
+Propósito: Definir una dependencia uno-a-muchos entre objetos, de modo que cuando un objeto (el sujeto) cambia de estado, todos sus dependientes (los observadores) son notificados y actualizados automáticamente.
+
+#### 1.2. Investigación profunda sobre Conceptos Clave
+El concepto fundamental es el desacoplamiento. El `Subject` no necesita conocer las clases concretas de sus `Observers`, solo sabe que implementan la interfaz `Observer`. Esto permite añadir nuevos observadores sin modificar el código del sujeto. Este principio se conoce como "programar hacia una interfaz, no hacia una implementación". Otro concepto es la inversión de control: en lugar de que los observadores pregunten constantemente al sujeto si ha cambiado (polling), el sujeto toma la iniciativa de notificarles (push).
+
+#### 1.3. Explicación Pedagógica
+Se puede pensar en el patrón Observer como un sistema de suscripción a una revista o un canal de noticias.
+*   La editorial de la revista es el `Subject`.
+*   Los suscriptores son los `Observers`.
+*   Cuando la editorial publica una nueva edición (un cambio de estado), envía una copia a todos sus suscriptores (notifica a los observadores). Los suscriptores no tienen que ir al quiosco todos los días para ver si ha salido la nueva revista; la reciben automáticamente.
+
+#### 1.4. Contexto y Aplicaciones
+Interfaces Gráficas de Usuario (GUI): En arquitecturas como Model-View-Controller (MVC), el Modelo actúa como `Subject` y la Vista como `Observer`. Cuando los datos del modelo cambian, notifica a la vista para que se actualice.
+Sistemas de Eventos: Los manejadores de eventos (event listeners) en desarrollo web o de escritorio son `Observers` que se suscriben a eventos (clics, pulsaciones de teclas) de componentes que actúan como `Subjects`.
+Aplicaciones de monitorización: Sistemas que monitorizan el estado de un servidor (CPU, memoria) y notifican a varios paneles de control o sistemas de alerta.
+
+#### 1.5. Relaciones
+La relación principal es una asociación entre el `Subject` y el `Observer`, donde el `Subject` mantiene una colección de referencias a `Observers`. Es una relación dinámica que puede cambiar en tiempo de ejecución.
+
+---
+
+### 2. Patrón State (Estado)
+
+Categoría: Comportamiento
+
+#### 2.1. Descripción Detallada
+`Context` (Contexto): Es la clase principal cuyo comportamiento cambia. Mantiene una referencia a un objeto `State` (`currentState`) que representa su estado actual. Delega las peticiones específicas del estado a este objeto.
+`State` (Estado): Es una interfaz o clase abstracta que define un método (`handleState` en el diagrama) que será implementado por los estados concretos.
+`ConcreteStateA` / `ConcreteStateB`: Son clases que implementan la interfaz `State`. Cada una representa un estado del `Context` y encapsula el comportamiento asociado a ese estado. También pueden ser responsables de la transición a otro estado.
+
+Propósito: Permitir que un objeto altere su comportamiento cuando su estado interno cambia. El objeto parecerá cambiar de clase.
+
+#### 2.2. Investigación profunda sobre Conceptos Clave
+El patrón State es una implementación orientada a objetos de una máquina de estados finitos. Encapsula cada estado en su propia clase, lo que evita el uso de grandes bloques condicionales (`if-else` o `switch`) en la clase `Context`. Sigue el Principio de Responsabilidad Única (cada clase de estado maneja la lógica de un solo estado) y el Principio Abierto/Cerrado (se pueden añadir nuevos estados sin modificar el `Context` o los estados existentes).
+
+#### 2.3. Explicación Pedagógica
+Se puede comparar con una máquina expendedora.
+*   La máquina es el `Context`.
+*   Sus estados pueden ser: `SinMoneda`, `ConMoneda`, `ProductoVendido`, `Agotado`. Cada uno es un `ConcreteState`.
+*   El comportamiento de la máquina (qué pasa si se inserta una moneda o se presiona un botón) depende completamente de su estado actual. Si está en estado `SinMoneda`, insertar una moneda lo cambia a `ConMoneda`. Si ya está en `ConMoneda`, insertar otra moneda podría devolverla.
+
+#### 1.4. Contexto y Aplicaciones
+Gestión de flujos de trabajo (Workflows): Un documento puede pasar por estados como "Borrador", "En Revisión", "Aprobado", "Publicado".
+Controladores de videojuegos: El comportamiento de un personaje (parado, caminando, corriendo, saltando) se gestiona a través de diferentes estados.
+Conexiones de red: Una conexión puede estar en estados como "Conectando", "Establecida", "Cerrada".
+
+#### 1.5. Relaciones
+El `Context` tiene una relación de composición o agregación con la interfaz `State`. Los objetos `ConcreteState` a menudo contienen una referencia al `Context` para poder cambiar su estado.
+
+---
+
+### 3. Patrón Strategy (Estrategia)
+
+Categoría: Comportamiento
+
+#### 3.1. Descripción Detallada
+`Context`: Mantiene una referencia a un objeto `Strategy`. No implementa un algoritmo directamente, sino que delega esa tarea al objeto de estrategia referenciado.
+`Strategy`: Es una interfaz común para todos los algoritmos soportados. Define un método (p. ej., `execute`) que el `Context` utilizará.
+`ConcreteStrategyA` / `ConcreteStrategyB`: Implementan la interfaz `Strategy`, proporcionando diferentes versiones del algoritmo.
+
+Propósito: Definir una familia de algoritmos, encapsular cada uno de ellos y hacerlos intercambiables. Permite que el algoritmo varíe independientemente de los clientes que lo utilizan.
+
+#### 3.2. Investigación profunda sobre Conceptos Clave
+Este patrón es un ejemplo claro del principio de Composición sobre Herencia. En lugar de que el `Context` herede el comportamiento, lo obtiene a través de la composición con un objeto `Strategy`. Esto proporciona una gran flexibilidad, ya que la estrategia puede cambiarse en tiempo de ejecución. También promueve el Principio Abierto/Cerrado, ya que se pueden introducir nuevas estrategias sin modificar el `Context`.
+
+#### 3.3. Explicación Pedagógica
+Imaginemos una aplicación de mapas que calcula rutas.
+*   El `Context` es la interfaz de la aplicación que muestra la ruta.
+*   La `Strategy` es la forma de calcular la ruta.
+*   Las `ConcreteStrategy` podrían ser "Ruta en Coche", "Ruta a Pie" o "Ruta en Transporte Público".
+El usuario puede seleccionar la estrategia que prefiera, y la aplicación (`Context`) utilizará el algoritmo correspondiente para calcular y mostrar la ruta sin cambiar su propia lógica interna.
+
+#### 1.4. Contexto y Aplicaciones
+Sistemas de compresión: Se puede elegir entre diferentes algoritmos de compresión (ZIP, RAR, GZIP) como estrategias.
+Algoritmos de ordenación: Una clase que necesita ordenar una colección puede usar diferentes estrategias de ordenación (QuickSort, MergeSort, BubbleSort).
+Pasarelas de pago: En un e-commerce, el cliente puede elegir entre pagar con tarjeta de crédito, PayPal o transferencia bancaria. Cada método de pago es una estrategia.
+
+#### 1.5. Relaciones
+El `Context` tiene una relación de composición con la interfaz `Strategy`. El cliente es responsable de configurar el `Context` con la estrategia concreta deseada.
+
+---
+
+### 4. Patrón Adapter (Adaptador)
+
+Categoría: Estructural
+
+#### 4.1. Descripción Detallada
+`Client` (Cliente): Es el código que necesita utilizar una funcionalidad, pero espera una interfaz específica (`Target`).
+`Target` (Objetivo): Es la interfaz que el `Client` espera o requiere.
+`Adaptee` (Adaptado): Es la clase existente con una interfaz incompatible que necesita ser utilizada.
+`Adapter` (Adaptador): Es la clase que implementa la interfaz `Target` y contiene una instancia de `Adaptee`. Su función es "traducir" las llamadas del `Client` (a través de la interfaz `Target`) a llamadas comprensibles por el `Adaptee`.
+
+Propósito: Convertir la interfaz de una clase en otra interfaz que los clientes esperan. Permite que clases con interfaces incompatibles trabajen juntas.
+
+#### 4.2. Investigación profunda sobre Conceptos Clave
+También conocido como Wrapper (envoltorio), su objetivo es la interoperabilidad entre sistemas o componentes que no fueron diseñados para trabajar juntos. Existen dos tipos principales:
+1.  Adapter de Objeto (el del diagrama): Usa composición. El `Adapter` contiene una instancia del `Adaptee`.
+2.  Adapter de Clase: Usa herencia múltiple (si el lenguaje lo permite). El `Adapter` hereda tanto de la clase `Adaptee` como de la interfaz `Target`.
+
+#### 4.3. Explicación Pedagógica
+Un ejemplo perfecto es un adaptador de enchufe de viaje.
+*   El `Client` es el dispositivo electrónico con su enchufe (p. ej., americano).
+*   El `Target` es el enchufe europeo que se espera en la pared.
+*   El `Adaptee` es el enchufe americano del dispositivo, que es incompatible.
+*   El `Adapter` es el adaptador de viaje que se conecta al enchufe americano (`Adaptee`) y expone una clavija europea (`Target`), permitiendo que el dispositivo funcione.
+
+#### 1.4. Contexto y Aplicaciones
+Integración de librerías de terceros: Cuando se utiliza una librería externa cuya API no coincide con la que el sistema espera.
+Sistemas legados: Para hacer que el código antiguo (legacy) funcione con sistemas más nuevos sin necesidad de reescribirlo.
+APIs de Java: Las clases `java.io.InputStreamReader` y `java.io.OutputStreamWriter` actúan como adaptadores entre flujos de bytes (Input/OutputStream) y flujos de caracteres (Reader/Writer).
+
+#### 1.5. Relaciones
+El `Adapter` implementa la interfaz `Target` y tiene una relación de composición con el `Adaptee`. El `Client` interactúa con el `Adapter` a través de la interfaz `Target`.
+
+---
+
+### 5. Patrón Bridge (Puente)
+
+Categoría: Estructural
+
+#### 2.1. Descripción Detallada
+`Abstraction` (Abstracción): Define la interfaz de alto nivel para el cliente. Mantiene una referencia a un objeto de tipo `Implementor`. En el diagrama, es la clase `Shape`.
+`RefinedAbstraction` (Abstracción Refinada): Extiende la `Abstraction` para añadir funcionalidades. En el diagrama, es `Circle`.
+`Implementor` (Implementador): Define la interfaz para las clases de implementación. Esta interfaz no tiene por qué corresponderse directamente con la de `Abstraction`. En el diagrama, es `DrawAPI`.
+`ConcreteImplementor` (Implementador Concreto): Implementa la interfaz `Implementor`. Son las clases que realizan el trabajo de bajo nivel. En el diagrama, `RedCircle` y `GreenCircle` (aunque el nombre `RedCircle` en el diagrama de implementación es un poco confuso, debería ser algo como `DrawingAPI_V1` o `DrawingAPI_V2`).
+
+Propósito: Desacoplar una abstracción de su implementación para que ambas puedan evolucionar de forma independiente.
+
+#### 2.2. Investigación profunda sobre Conceptos Clave
+El patrón Bridge se confunde a menudo con el Adapter, pero su intención es diferente. Mientras que el Adapter se usa para hacer que interfaces no relacionadas funcionen juntas (generalmente se aplica a sistemas ya existentes), el Bridge se usa de antemano en el diseño para evitar una explosión de clases. Si se usara herencia, por cada tipo de `Shape` (Circle, Square) y cada tipo de `DrawAPI` (Windows, Linux), se necesitaría una clase para cada combinación (WindowsCircle, LinuxCircle, WindowsSquare, etc.). Bridge evita esto separando las dos jerarquías.
+
+#### 2.3. Explicación Pedagógica
+Pensemos en los mandos a distancia y los televisores.
+*   La Abstracción es un mando a distancia genérico (`RemoteControl`).
+*   Las Abstracciones Refinadas son mandos específicos, como un `AdvancedRemoteControl` con más funciones.
+*   El Implementador es la interfaz del dispositivo (`Device`).
+*   Los Implementadores Concretos son los dispositivos reales, como `TV`, `Radio`, `BluRayPlayer`.
+
+Se puede usar cualquier mando con cualquier dispositivo. El mando (abstracción) delega la acción (subir volumen, cambiar canal) al dispositivo (implementación) que está controlando. Se pueden añadir nuevos mandos o nuevos dispositivos sin afectar al otro lado del "puente".
+
+#### 2.4. Contexto y Aplicaciones
+Sistemas de GUI multiplataforma: La abstracción serían los elementos de la GUI (Button, Window) y la implementación serían las APIs específicas del sistema operativo (Windows API, macOS API, GTK).
+Controladores de bases de datos (Drivers): La abstracción es una API genérica para acceder a bases de datos (como JDBC), y las implementaciones son los drivers específicos para cada motor (MySQL, PostgreSQL, Oracle).
+
+#### 2.5. Relaciones
+La `Abstraction` tiene una relación de composición con el `Implementor`. Esto permite cambiar la implementación en tiempo de ejecución.
+
+---
+
+### 6. Patrón Composite (Compuesto)
+
+Categoría: Estructural
+
+#### 2.1. Descripción Detallada
+`Component` (Componente): Es una interfaz o clase abstracta que declara una interfaz común tanto para objetos simples (`Leaf`) como para objetos compuestos (`Composite`). Generalmente incluye un método como `operation()`.
+`Leaf` (Hoja): Representa los objetos individuales y finales de la composición. Implementa la interfaz `Component` pero no tiene hijos.
+`Composite` (Compuesto): Representa objetos que pueden tener hijos. Almacena una colección de `Component` (hojas o otros compuestos). Implementa la interfaz `Component`, y su método `operation()` normalmente delega la llamada a sus hijos.
+
+Propósito: Componer objetos en estructuras de árbol para representar jerarquías de parte-todo. Permite a los clientes tratar a los objetos individuales y a las composiciones de objetos de manera uniforme.
+
+#### 2.2. Investigación profunda sobre Conceptos Clave
+El concepto central es la recursividad y la transparencia. El cliente interactúa con la estructura a través de la interfaz `Component` sin saber si está tratando con un objeto simple o una estructura compleja. Cualquier operación solicitada a un `Composite` se propaga recursivamente a sus hijos.
+
+#### 2.3. Explicación Pedagógica
+Un sistema de archivos es el ejemplo clásico.
+*   El `Component` es una interfaz abstracta `FileSystemItem`.
+*   Un `Leaf` es un archivo (`File`). Un archivo tiene propiedades como el tamaño, pero no contiene otros elementos.
+*   Un `Composite` es una carpeta o directorio (`Folder`). Una carpeta puede contener tanto archivos como otras carpetas.
+Se puede realizar la misma operación, como `calculateSize()`, tanto en un archivo como en una carpeta. Si se invoca en una carpeta, esta calculará su tamaño sumando recursivamente el tamaño de todos los archivos y subcarpetas que contiene.
+
+#### 2.4. Contexto y Aplicaciones
+Interfaces gráficas: Los elementos de una GUI (paneles, botones, cajas de texto) se organizan en una estructura de árbol. Un panel (`Composite`) puede contener otros paneles y elementos simples como botones (`Leaf`). Una operación como `draw()` se aplica a todo el árbol.
+Estructuras de documentos: En documentos como HTML o XML, los elementos (tags) se anidan formando un árbol (DOM Tree).
+Estructuras organizativas: La jerarquía de una empresa (empleados y departamentos) puede modelarse con este patrón.
+
+#### 2.5. Relaciones
+El `Composite` tiene una relación de composición con la interfaz `Component`, manteniendo una lista de sus hijos.
+
+---
+
+### 7. Patrón Facade (Fachada)
+
+Categoría: Estructural
+
+#### 2.1. Descripción Detallada
+`Facade` (Fachada): Es una clase que proporciona una interfaz simplificada y unificada a un conjunto de interfaces en un subsistema complejo. Conoce qué clases del subsistema son responsables de una solicitud y delega las llamadas del cliente a los objetos apropiados.
+`Subsystem1`, `Subsystem2`...: Son las clases que implementan la funcionalidad compleja del subsistema. No tienen conocimiento de la `Facade` y trabajan de forma independiente.
+
+Propósito: Proporcionar una interfaz unificada a un conjunto de interfaces en un subsistema. Define una interfaz de más alto nivel que hace que el subsistema sea más fácil de usar.
+
+#### 2.2. Investigación profunda sobre Conceptos Clave
+El patrón Facade promueve el desacoplamiento débil entre el cliente y el subsistema. El cliente solo depende de la fachada, no de las múltiples clases internas. Esto simplifica el uso del subsistema y lo aísla de cambios internos. La fachada no encapsula el subsistema por completo; si el cliente necesita funcionalidades avanzadas, todavía puede acceder directamente a las clases del subsistema.
+
+#### 2.3. Explicación Pedagógica
+Pensemos en el botón "Ver película" de un sistema de cine en casa (Home Theater).
+*   El subsistema está compuesto por varios dispositivos: `ReproductorBluRay`, `Proyector`, `SistemaDeSonido`, `Luces`.
+*   Para ver una película, se necesita realizar una secuencia de acciones complejas: encender el proyector, bajar la pantalla, atenuar las luces, encender el sistema de sonido y reproducir el disco.
+*   La `Facade` es la clase `HomeTheaterFacade` que tiene un método `watchMovie()`. Al llamar a este método, la fachada se encarga de coordinar todas las acciones necesarias con los diferentes componentes del subsistema. El usuario solo interactúa con un simple botón.
+
+#### 2.4. Contexto y Aplicaciones
+Librerías complejas: Proporcionar una API simple para una librería con muchas clases y dependencias.
+Arquitectura de Microservicios: Se puede usar una fachada (a menudo llamada API Gateway) como punto de entrada único para los clientes, simplificando la comunicación con múltiples microservicios.
+Simplificación de procesos: En un sistema bancario, una operación como "transferir dinero" puede involucrar múltiples subsistemas (autenticación, validación de saldo, registro de transacciones). Una fachada puede orquestar todo el proceso.
+
+#### 2.5. Relaciones
+La `Facade` tiene una asociación con las clases del subsistema. No las posee, simplemente las utiliza para realizar su trabajo.
+
+---
+
+### 8. Patrón Flyweight (Peso Ligero)
+
+Categoría: Estructural
+
+#### 2.1. Descripción Detallada
+`Flyweight`: Interfaz a través de la cual los flyweights pueden recibir y actuar sobre el estado extrínseco.
+`ConcreteFlyweight`: Implementa la interfaz y almacena el estado intrínseco (compartido).
+`FlyweightFactory`: Crea y gestiona los objetos flyweight. Asegura que los flyweights se compartan correctamente. Cuando un cliente solicita un flyweight, la fábrica devuelve una instancia existente o crea una nueva si no existe.
+`Client`: Mantiene el estado extrínseco (no compartido) y lo pasa al flyweight cuando invoca sus métodos.
+
+Propósito: Usar el intercambio de datos para soportar un gran número de objetos de grano fino de forma eficiente, minimizando el uso de memoria.
+
+#### 2.2. Investigación profunda sobre Conceptos Clave
+La clave de este patrón es la distinción entre dos tipos de estado:
+1.  Estado Intrínseco: Es la información que es independiente del contexto del objeto y es compartida entre muchos objetos. Se almacena en el `ConcreteFlyweight`.
+2.  Estado Extrínseco: Es la información que depende del contexto y no se puede compartir. El `Client` es responsable de almacenarla y pasarla a los métodos del flyweight cuando sea necesario.
+
+#### 2.3. Explicación Pedagógica
+Imaginemos un editor de texto. Cada letra en la pantalla es un objeto.
+*   Si cada letra almacenara su fuente, tamaño, color y el propio carácter, se consumiría una cantidad masiva de memoria para un documento largo.
+*   Con Flyweight, el estado intrínseco sería el carácter en sí ('A', 'B', 'C'...). Solo se crea un objeto por cada carácter único.
+*   El estado extrínseco sería la posición (fila y columna) y el formato (negrita, cursiva) de cada letra en el documento. Esta información la gestiona el `Client` (el editor) y se la pasa al objeto flyweight del carácter correspondiente para que se dibuje en la pantalla.
+De este modo, millones de caracteres pueden ser representados por unos pocos cientos de objetos flyweight compartidos.
+
+#### 2.4. Contexto y Aplicaciones
+Videojuegos: Para renderizar un gran número de objetos similares como árboles, rocas o partículas en un escenario. El objeto flyweight contiene el modelo 3D y la textura (intrínseco), mientras que la posición y la escala son extrínsecas.
+Navegadores web: Para renderizar los caracteres de una página.
+Redes de telecomunicaciones: Para representar routers o switches, donde gran parte de su configuración es idéntica.
+
+#### 2.5. Relaciones
+La `FlyweightFactory` gestiona el ciclo de vida de los objetos `ConcreteFlyweight`. El `Client` solicita flyweights a la fábrica y luego los utiliza, proporcionándoles el estado extrínseco necesario.
+
+---
+
+### 9. Patrón Proxy (Apoderado)
+
+Categoría: Estructural
+
+#### 2.1. Descripción Detallada
+`Subject` / `RealSubject` (Sujeto Real): Es la interfaz (en el diagrama `RealSubject` está como interfaz, y `RealSubjectImpl` como la clase concreta) y la clase que define el objeto real cuyo acceso se quiere controlar.
+`Proxy`: Mantiene una referencia al `RealSubject`. Implementa la misma interfaz que el `RealSubject` para que pueda sustituirlo. Controla el acceso al objeto real y puede ser responsable de su creación y eliminación.
+
+Propósito: Proporcionar un sustituto o marcador de posición para otro objeto para controlar el acceso a este.
+
+#### 2.2. Investigación profunda sobre Conceptos Clave
+El Proxy actúa como un intermediario. Puede añadir funcionalidades antes o después de delegar la llamada al objeto real. Existen varios tipos de proxies según su propósito:
+Proxy Virtual: Retrasa la creación y la inicialización de un objeto costoso hasta que realmente se necesita (lazy initialization).
+Proxy de Protección: Controla el acceso al objeto original, verificando si el llamante tiene los permisos necesarios.
+Proxy Remoto: Representa un objeto que se encuentra en un espacio de direcciones diferente (p. ej., en otro servidor).
+Proxy de Registro (Logging): Registra las llamadas a los métodos del objeto real.
+
+#### 2.3. Explicación Pedagógica
+Una tarjeta de crédito es un buen ejemplo de un proxy.
+*   El `RealSubject` es la cuenta bancaria, que contiene el dinero real.
+*   La `Proxy` es la tarjeta de crédito.
+*   La tarjeta implementa la misma interfaz de "pago" que la cuenta bancaria. Cuando se realiza una compra, no se entrega el dinero directamente. Se usa la tarjeta, que realiza comprobaciones (control de acceso, límite de crédito) y luego se comunica con el banco para realizar la transacción real. También puede registrar la transacción (logging).
+
+#### 2.4. Contexto y Aplicaciones
+Carga perezosa de imágenes: En una galería de imágenes, se pueden mostrar proxies de baja resolución. La imagen real de alta resolución (`RealSubject`) solo se carga cuando el usuario hace clic en ella.
+Control de acceso: En un sistema con diferentes roles de usuario, un proxy puede verificar si un usuario tiene permiso para ejecutar una operación sobre un objeto.
+Manejo de transacciones y caching: Un proxy puede iniciar una transacción antes de llamar al objeto real y cerrarla después, o puede almacenar en caché los resultados de operaciones costosas para evitar ejecutarlas repetidamente.
+Programación Orientada a Aspectos (AOP): Frameworks como Spring utilizan proxies para inyectar funcionalidades (seguridad, logging, transacciones) de forma transparente en los objetos de negocio.
+
+#### 2.5. Relaciones
+El `Proxy` implementa la misma interfaz que el `RealSubject` y mantiene una referencia (composición) a una instancia del `RealSubject`, la cual puede crear bajo demanda.

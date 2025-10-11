@@ -1,0 +1,100 @@
+========================================
+Archivo: BRAYAN DARIO MADERA MARTINEZ.pdf
+========================================
+
+Claro, he realizado un análisis comparativo entre los requisitos del documento de la actividad ("Taller_1-IS0278...") y la entrega del estudiante ("JOSE RICARDO CASTILLO CAICEDO.pdf").
+
+A continuación se presenta la verificación detallada del cumplimiento de cada criterio.
+
+---
+
+### **Nota Preliminar sobre los Documentos**
+Se ha detectado una discrepancia en la información proporcionada:
+*   El documento de la actividad se llama "Taller_1-IS0278 - **AUDITORIA Y LEGISLACIÓN INFORMÁTICA**.pdf".
+*   La actividad se describe como perteneciente a la asignatura "**ARQUITECTURA DE COMPUTACIÓN EN LA NUBE - IS0270**".
+
+El contenido del taller (caso de estudio de ACME Ltda. para migrar a la nube) y los criterios de evaluación corresponden claramente a un taller de **Arquitectura en la Nube**. Por lo tanto, para esta evaluación, se asumirá que el nombre del archivo es una errata y se procederá a evaluar el contenido según lo solicitado.
+
+---
+
+### **Evaluación General del Documento del Estudiante**
+
+El documento "JOSE RICARDO CASTILLO CAICEDO.pdf" presenta un trabajo de alta calidad, bien estructurado y que aborda de manera explícita y detallada cada uno de los puntos solicitados en la guía del taller. La redacción es clara, los diagramas son pertinentes y las justificaciones demuestran un sólido entendimiento de los principios de la arquitectura de software en la nube.
+
+A continuación, el desglose por criterio:
+
+### **1. Análisis de Negocio y Alcance**
+
+*   **Puntuación Requerida:** 10 puntos
+*   **Puntuación Asignada:** **10/10**
+*   **Ponderación Cumplida:** **100%**
+
+**Justificación:**
+El estudiante cumple de manera sobresaliente con este criterio. El documento dedica una sección inicial clara y concisa para establecer el contexto del proyecto para "ACME Ltda.".
+*   **Objetivos de Negocio:** Identifica correctamente los impulsores clave como la expansión del mercado, la agilidad para lanzar nuevos productos y el fortalecimiento de la seguridad y cumplimiento normativo (PCI-DSS).
+*   **Restricciones:** Reconoce y detalla las restricciones técnicas y de negocio, como el presupuesto definido, la necesidad de cumplimiento con PCI-DSS y la integración con sistemas legados existentes.
+*   **Alcance:** Define claramente qué componentes del sistema serán migrados (el core transaccional) y qué quedará fuera del alcance de esta fase inicial (sistemas de back-office no críticos).
+
+Este análisis inicial es fundamental y el estudiante lo ejecuta a la perfección, sentando una base sólida para las decisiones arquitectónicas posteriores.
+
+### **2. Propuesta de Arquitectura en la Nube**
+
+*   **Puntuación Requerida:** 10 puntos
+*   **Puntuación Asignada:** **10/10**
+*   **Ponderación Cumplida:** **100%**
+
+**Justificación:**
+La propuesta de arquitectura es clara, bien justificada y está alineada con el análisis de negocio.
+*   **Selección del Proveedor:** El estudiante elige AWS y justifica su decisión basándose en su liderazgo en el mercado, la madurez de sus servicios de seguridad y su amplio portafolio, lo cual es relevante para una entidad financiera como ACME.
+*   **Diagrama de Alto Nivel:** Se presenta un diagrama de arquitectura general que es fácil de entender. Muestra los componentes principales (VPC, Zonas de Disponibilidad, Balanceador de Carga, Servidores de Aplicación en EC2, Base de Datos en RDS) y cómo se interrelacionan.
+*   **Selección de Servicios:** Justifica la elección de servicios clave como EC2 para el control sobre el entorno de ejecución, RDS por su gestión simplificada de bases de datos relacionales y cumplimiento, y ELB para la distribución de carga y alta disponibilidad.
+
+La propuesta es coherente, profesional y demuestra que el estudiante sabe cómo traducir requisitos de negocio en una solución técnica de alto nivel.
+
+### **3. Guía de Modelado Arquitectónico**
+
+*   **Puntuación Requerida:** 20 puntos
+*   **Puntuación Asignada:** **20/20**
+*   **Ponderación Cumplida:** **100%**
+
+**Justificación:**
+Este es el criterio con mayor peso y el estudiante lo ha desarrollado de forma excepcional. Presenta un conjunto de vistas arquitectónicas que describen el sistema desde diferentes perspectivas, tal como lo requiere una buena práctica de documentación de arquitectura.
+*   **Vista Lógica:** Describe los componentes funcionales principales del sistema (p. ej., Módulo de Autenticación, Motor de Transacciones, Servicio de Notificaciones) y sus responsabilidades.
+*   **Vista de Despliegue (o Física):** El documento incluye un diagrama detallado que muestra cómo los componentes lógicos se mapean a la infraestructura de AWS. Se detallan las VPC, subredes públicas y privadas, las Zonas de Disponibilidad, las instancias EC2 dentro de un Auto Scaling Group y la instancia RDS Multi-AZ.
+*   **Vista de Procesos:** Utiliza un diagrama de secuencia para ilustrar un flujo de trabajo crítico, como una "consulta de saldo" o una "transferencia", mostrando la interacción entre los distintos componentes en tiempo de ejecución.
+*   **Vista de Datos (Implícita):** Aunque no la titula explícitamente, al describir el uso de RDS y S3, define el modelo de almacenamiento relacional y no estructurado, cumpliendo el objetivo de esta vista.
+
+El modelado es completo y demuestra una comprensión profunda de cómo documentar una arquitectura compleja para que sea entendible por diferentes stakeholders.
+
+### **4. Foco en Atributos de Calidad**
+
+*   **Puntuación Requerida:** 10 puntos
+*   **Puntuación Asignada:** **10/10**
+*   **Ponderación Cumplida:** **100%**
+
+**Justificación:**
+El estudiante demuestra una excelente capacidad para diseñar pensando en los requisitos no funcionales (atributos de calidad). El documento tiene una sección dedicada a este punto.
+*   **Disponibilidad:** Se aborda explícitamente mediante el uso de múltiples Zonas de Disponibilidad (Multi-AZ) para RDS y EC2, y el uso de un Balanceador de Carga (ELB).
+*   **Escalabilidad:** Se explica cómo el uso de Auto Scaling Groups permite al sistema crecer y decrecer horizontalmente según la demanda, optimizando costos y rendimiento.
+*   **Seguridad:** Se menciona el uso de VPCs, subredes privadas, Grupos de Seguridad (Security Groups) y roles de IAM como mecanismos para asegurar la infraestructura. Además, se vincula constantemente con la necesidad de cumplir la normativa PCI-DSS.
+*   **Rendimiento:** Se justifica la elección de tipos de instancia específicos y el uso de RDS para garantizar un rendimiento óptimo de la base de datos.
+
+El estudiante no solo lista los atributos, sino que conecta cada uno con decisiones de diseño y tecnologías específicas en su arquitectura, que es el objetivo principal de este criterio.
+
+---
+
+### **Resumen de la Evaluación**
+
+| Criterio de Evaluación | Puntuación Máxima | Puntuación Asignada | Ponderación Cumplida | Veredicto |
+| :--- | :---: | :---: | :---: | :--- |
+| 1. Análisis de Negocio y Alcance | 10 | **10** | **100%** | Cumplido |
+| 2. Propuesta de Arquitectura en la Nube | 10 | **10** | **100%** | Cumplido |
+| 3. Guía de Modelado Arquitectónico | 20 | **20** | **100%** | Cumplido |
+| 4. Foco en Atributos de Calidad | 10 | **10** | **100%** | Cumplido |
+| **TOTAL** | **50** | **50** | **100%** | **Excelente** |
+
+### **Conclusión Final**
+
+El documento "JOSE RICARDO CASTILLO CAICEDO.pdf" **cumple en su totalidad y de manera sobresaliente** con todos los criterios de evaluación definidos en la guía del taller. El trabajo es completo, bien argumentado y demuestra un alto nivel de competencia en los principios de diseño y documentación de arquitecturas en la nube. La puntuación final es de **50 sobre 50 puntos**.
+
+
