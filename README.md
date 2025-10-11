@@ -1,3 +1,91 @@
+
+
+
+Guía Detallada: Evaluador Automático con Gemini
+Este script de Python ofrece una solución automatizada para la evaluación de entregas estudiantiles en formato PDF. Utiliza la potencia de la API multimodal de Google Gemini, lo que le permite analizar y comprender tanto el texto como las imágenes contenidas en los documentos, agilizando significativamente el proceso de calificación.
+
+Requisitos Previos
+Para garantizar el correcto funcionamiento del script, es fundamental cumplir con los siguientes requisitos en el entorno de trabajo.
+
+Python 3: El script utiliza sintaxis y funcionalidades modernas de Python 3. Se puede verificar la versión instalada con el comando python3 --version.
+
+Clave de API de Google: Es indispensable contar con una clave de API para autenticarse con los servicios de Google AI. Esta clave se puede obtener de forma gratuita en la plataforma de Google AI Studio.
+
+Módulo venv de Python: Esta herramienta, utilizada para crear entornos virtuales, es crucial para evitar conflictos con los paquetes de Python del sistema. En sistemas basados en Debian/Ubuntu, se puede instalar con sudo apt install python3-venv.
+
+Estructura de Carpetas: El script espera una organización específica de los archivos para poder localizar las entregas. La estructura debe ser la siguiente:
+
+/ruta/del/proyecto/
+├── evaluador_automatico_Texto_Imagenes_GeminiIA.py
+├── tu_rubrica.pdf
+└── Entregas/
+    ├── Carpeta_Estudiante_1/
+    │   └── entrega_1.pdf
+    └── Carpeta_Estudiante_2/
+        └── entrega_2.pdf
+
+Instrucciones de Ejecución
+Siga estos pasos detallados en la terminal, asegurándose de estar en el directorio que contiene el script.
+
+1. Configurar API Key y Entorno Virtual:
+
+Este primer paso prepara un entorno de trabajo aislado y seguro.
+
+Exportar la API Key: El siguiente comando crea una variable de entorno temporal que el script utilizará para autenticarse. Este método es seguro ya que la clave no queda guardada en el código. Reemplace "TU_API_KEY_AQUI" con su clave real.
+
+Crear y activar el entorno virtual: Se creará una carpeta venv que contendrá una copia de Python y las librerías necesarias, aisladas del resto del sistema.
+
+# Exporta la clave de API para la sesión actual de la terminal
+export GOOGLE_API_KEY="TU_API_KEY_AQUI"
+
+# Crea el entorno virtual (solo se necesita hacer esto la primera vez)
+python3 -m venv venv
+
+# Activa el entorno para empezar a usarlo
+source venv/bin/activate
+
+Después de activar el entorno, el prompt de la terminal cambiará para mostrar (venv) al inicio.
+
+2. Instalar Dependencias:
+
+Con el entorno virtual activado, instale las bibliotecas que el script necesita para funcionar. Cada una tiene un propósito específico:
+
+PyMuPDF: Permite abrir y extraer contenido (texto e imágenes) de los archivos PDF.
+
+google-generativeai: Es la biblioteca oficial de Google para interactuar con la API de Gemini.
+
+pillow: Una potente librería para el manejo y procesamiento de las imágenes extraídas.
+
+# Instala las tres librerías necesarias dentro del entorno 'venv'
+pip install PyMuPDF google-generativeai pillow
+
+3. Verificar Rutas y Ejecutar:
+
+Antes de la ejecución final, es crucial verificar que las rutas dentro del script sean correctas.
+
+Revisar el script: Abra el archivo evaluador_automatico_Texto_Imagenes_GeminiIA.py con un editor de texto y verifique que los valores de las variables RUTA_CARPETA_ENTREGAS y RUTA_ARCHIVO_RUBRICA correspondan a las rutas absolutas y correctas en su sistema.
+
+Ejecutar: Una vez verificado, lance el script.
+
+# Ejecuta el script de Python
+python3 evaluador_automatico_Texto_Imagenes_GeminiIA.py
+
+El programa mostrará en la terminal el progreso, indicando qué archivo está procesando en cada momento.
+
+Resultados
+Una vez que el script finalice su ejecución, creará un archivo de texto en el mismo directorio. El nombre del archivo seguirá el formato resultados_evaluacion_AAAA-MM-DD_HH-MM-SS.txt. Este documento contendrá un informe detallado con la evaluación generada por la IA para cada una de las entregas procesadas, debidamente separadas y tituladas para una fácil revisión.
+
+
+
+
+
+
+
+
+
+
+
+
 <p>
   <a href="https://blog.bytebytego.com/?utm_source=site"><img src=".github/banner.jpg" /> </a>
 </p>
